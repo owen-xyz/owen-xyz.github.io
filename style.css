@@ -1,0 +1,70 @@
+*{
+    
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    border: 10px solid black;
+    font-family:  "Space Mono", Monaco, Menlo,Consolas,monospace;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+}
+nav img{
+    padding-top: 20px;
+}
+h1{
+    border-bottom: 1px solid black;
+    margin: 0;
+    margin-left: 15px;
+}
+p,h3{
+    border: 1px solid black;
+    padding: 15px;
+    border-right: none;
+    border-left: none;
+}
+section{
+    padding:10px;
+    
+}
+h3{
+    border-top: none;
+}
+main{
+    border: 1px solid black;
+    border-bottom:none ;
+    border-top:none ;
+    height: 100%;
+}
+
+nav img{
+    width: 300px;
+}
+nav button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-bottom: 1px solid black;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+}
+nav button:hover{
+    color: #979797;
+    border-bottom: 1px solid #979797;
+}
+main section{
+    display: none;
+}
+.section-about{
+    display: inline-block;
+}
+
