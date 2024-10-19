@@ -1,0 +1,20 @@
+strong{
+    color: #f4e062;
+}
+section{
+    min-height: 100vh;
+    background-image: url('./img/z13.jpg');
+    background-size: cover;
+}
+.section-2{
+    min-height: 100vh;
+    background-image: url('./img/z12.jpg');
+    background-size: cover;
+}
+
+p{
+    mix-blend-mode: difference;
+}
+.icon{
+    mix-blend-mode:screen;
+}
