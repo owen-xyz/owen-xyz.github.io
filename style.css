@@ -1,3 +1,4 @@
+
 strong{
     color: #f4e062;
 }
@@ -15,6 +16,7 @@ section{
 p{
     mix-blend-mode: difference;
 }
-.icon{
-    mix-blend-mode:screen;
+img{
+    margin: 0;
+    padding: 0;
 }
