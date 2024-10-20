@@ -16,6 +16,9 @@ section{
 p{
     mix-blend-mode: difference;
 }
+.navbar-nav{
+    mix-blend-mode: difference;
+}
 img{
     margin: 0;
     padding: 0;
