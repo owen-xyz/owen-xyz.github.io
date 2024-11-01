@@ -1,4 +1,6 @@
-
+body{
+    overflow-x: hidden;
+}
 strong{
     color: #f4e062;
 }
